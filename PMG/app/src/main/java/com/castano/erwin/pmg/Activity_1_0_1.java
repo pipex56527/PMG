@@ -10,4 +10,10 @@ public class Activity_1_0_1 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_1_0_1);
     }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        overridePendingTransition(R.anim.right_in, R.anim.right_out);
+    }
 }

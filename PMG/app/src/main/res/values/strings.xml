@@ -1,3 +1,28 @@
 <resources>
     <string name="app_name">PMG</string>
+
+    <!--1.0 INICIAR-SESION -->
+    <string name="pmg1.0_titulo">INICIAR SESION</string>
+    <string name="pmg1.0_usuario">Usuario</string>
+    <string name="pmg1.0_contrasenia">Contraseña</string>
+    <string name="pmg1.0_iniciarSesion">Iniciar Sesión</string>
+    <string name="pmg1.0_informacion"></string>
+
+    <!--1.1 MENU-PRINCIPAL -->
+    <string name="pmg1_1_titulo">MENÚ PRINCIPAL</string>
+    <string name="pmg1_1_movimientos">Movimientos</string>
+    <string name="pmg1_1_conceptos">Conceptos</string>
+    <string name="pmg1_1_EstadoFinanPers">Estado de Finanzas Personales</string>
+    <string name="pmg1_1_periodoActivo">Seleccionar Periodo Activo</string>
+    <string name="pmg1_1_informacion"></string>
+
+    <!--1.0.1 REGISTRO -->
+    <string name="pmg1_0_1_titulo">Para usar PMG debes registrarte</string>
+    <string name="pmg1_0_1_usuario">Usuario</string>
+    <string name="pmg1_0_1_contrasenia">Contraseña</string>
+    <string name="pmg1_0_1_nombre">Nombre</string>
+    <string name="pmg1_0_1_apellido">Apellido</string>
+    <string name="pmg1_0_1_registrarse">Registrarse</string>
+    <string name="pmg1_0_1_informacion"></string>
+
 </resources>
