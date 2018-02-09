@@ -2,11 +2,11 @@
     <string name="app_name">PMG</string>
 
     <!--1.0 INICIAR-SESION -->
-    <string name="pmg1.0_titulo">INICIAR SESION</string>
-    <string name="pmg1.0_usuario">Usuario</string>
-    <string name="pmg1.0_contrasenia">Contraseña</string>
-    <string name="pmg1.0_iniciarSesion">Iniciar Sesión</string>
-    <string name="pmg1.0_informacion"></string>
+    <string name="pmg1_0_titulo">INICIAR SESION</string>
+    <string name="pmg1_0_usuario">Usuario</string>
+    <string name="pmg1_0_contrasenia">Contraseña</string>
+    <string name="pmg1_0_iniciarSesion">Iniciar Sesión</string>
+    <string name="pmg1_0_informacion"></string>
 
     <!--1.1 MENU-PRINCIPAL -->
     <string name="pmg1_1_titulo">MENÚ PRINCIPAL</string>
@@ -24,5 +24,14 @@
     <string name="pmg1_0_1_apellido">Apellido</string>
     <string name="pmg1_0_1_registrarse">Registrarse</string>
     <string name="pmg1_0_1_informacion"></string>
+
+    <!--1.1.1 MENU-MOVIMIENTOS -->
+    <string name="pmg1_1_1_titulo">MOVIMIENTOS</string>
+    <string name="pmg1_1_1_ingresar">Ingresar</string>
+    <string name="pmg1_1_1_modificar">Modificar</string>
+    <string name="pmg1_1_1_eliminar">Elminar</string>
+    <string name="pmg1_1_1_consultar">Consultar</string>
+    <string name="pmg1_1_1_periodoAct">Periodo Activo:</string>
+    <string name="pmg1_1_1_informacion">Información: </string>
 
 </resources>

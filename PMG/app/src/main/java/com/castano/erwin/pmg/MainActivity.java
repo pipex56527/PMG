@@ -3,7 +3,6 @@ package com.castano.erwin.pmg;
 import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Color;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
@@ -22,9 +21,9 @@ public class MainActivity extends Activity {
     }
 
     public void iniciarSesion(View vista) {
-        EditText textViewUsuario = (EditText) findViewById(R.id.editTextUsuario);
-        EditText textViewContrasenia = (EditText) findViewById(R.id.editTextContrasenia);
-        Button botonAceptar = (Button) findViewById(R.id.buttonIniciarSesion);
+        EditText textViewUsuario = (EditText) findViewById(R.id.editTextpmg1_0_usuario);
+        EditText textViewContrasenia = (EditText) findViewById(R.id.editTextpmg1_0_contrasenia);
+        Button botonAceptar = (Button) findViewById(R.id.buttonpmg1_0_iniciarSesion);
         TextView textViewInformacion = (TextView) findViewById(R.id.textViewInformacion);
 
         usuario = textViewUsuario.getText().toString();
@@ -52,8 +51,8 @@ public class MainActivity extends Activity {
     }
 
     public void limpiarInformacion(View vista){
-        EditText textViewUsuario = (EditText) findViewById(R.id.editTextUsuario);
-        EditText textViewContrasenia = (EditText) findViewById(R.id.editTextContrasenia);
+        EditText textViewUsuario = (EditText) findViewById(R.id.editTextpmg1_0_usuario);
+        EditText textViewContrasenia = (EditText) findViewById(R.id.editTextpmg1_0_contrasenia);
         TextView textViewInformacion = (TextView) findViewById(R.id.textViewInformacion);
         textViewUsuario.setFocusable(true);
         textViewUsuario.requestFocus();
@@ -63,10 +62,10 @@ public class MainActivity extends Activity {
     }
 
     public void limpiarInformacion(){
-        EditText textViewUsuario = (EditText) findViewById(R.id.editTextUsuario);
+        EditText textViewUsuario = (EditText) findViewById(R.id.editTextpmg1_0_usuario);
         textViewUsuario.setFocusable(true);
         textViewUsuario.requestFocus();
-        EditText textViewContrasenia = (EditText) findViewById(R.id.editTextContrasenia);
+        EditText textViewContrasenia = (EditText) findViewById(R.id.editTextpmg1_0_contrasenia);
         TextView textViewInformacion = (TextView) findViewById(R.id.textViewInformacion);
         textViewUsuario.setText("");
         textViewContrasenia.setText("");

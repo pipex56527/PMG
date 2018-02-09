@@ -7,7 +7,7 @@
     tools:context="com.castano.erwin.pmg.MainActivity">
 
     <TextView
-        android:id="@+id/textViewIniciarSesion"
+        android:id="@+id/textViewpmg1_0_titulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -25,7 +25,7 @@
         app:layout_constraintVertical_bias="0.18" />
 
     <EditText
-        android:id="@+id/editTextUsuario"
+        android:id="@+id/editTextpmg1_0_usuario"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -33,7 +33,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:ems="10"
-        android:hint="@string/pmg1.0_usuario"
+        android:hint="@string/pmg1_0_usuario"
         android:inputType="textPersonName|textWebEmailAddress"
         android:onClick="limpiarInformacion"
         android:textAlignment="center"
@@ -43,11 +43,11 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewIniciarSesion"
+        app:layout_constraintTop_toBottomOf="@+id/textViewpmg1_0_titulo"
         app:layout_constraintVertical_bias="0.165" />
 
     <EditText
-        android:id="@+id/editTextContrasenia"
+        android:id="@+id/editTextpmg1_0_contrasenia"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -55,7 +55,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:ems="10"
-        android:hint="@string/pmg1.0_contrasenia"
+        android:hint="@string/pmg1_0_contrasenia"
         android:inputType="textPassword"
         android:onClick="limpiarInformacion"
         android:textAlignment="center"
@@ -65,11 +65,11 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewIniciarSesion"
+        app:layout_constraintTop_toBottomOf="@+id/textViewpmg1_0_titulo"
         app:layout_constraintVertical_bias="0.428" />
 
     <Button
-        android:id="@+id/buttonIniciarSesion"
+        android:id="@+id/buttonpmg1_0_iniciarSesion"
         android:layout_width="280dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -77,18 +77,18 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:onClick="iniciarSesion"
-        android:text="@string/pmg1.0_iniciarSesion"
+        android:text="@string/pmg1_0_iniciarSesion"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewIniciarSesion"
+        app:layout_constraintTop_toBottomOf="@+id/textViewpmg1_0_titulo"
         app:layout_constraintVertical_bias="0.757" />
 
     <TextView
-        android:id="@+id/textViewInformacion"
+        android:id="@+id/textViewpmg1_0_informacion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -100,7 +100,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonIniciarSesion"
-        tools:text="@string/pmg1.0_informacion" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonpmg1_0_iniciarSesion"
+        tools:text="@string/pmg1_0_informacion" />
 
 </android.support.constraint.ConstraintLayout>
