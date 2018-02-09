@@ -31,15 +31,16 @@ public class MainActivity extends Activity {
         contrasenia = textViewContrasenia.getText().toString();
 
         if (usuario.equals("a") && contrasenia.equals("b")) {
+            limpiarInformacion(vista);
             Intent intencion = new Intent(this, Activity_1_1.class);
             startActivity(intencion);
             overridePendingTransition(R.anim.right_in, R.anim.right_out);
-            limpiarInformacion(vista);
+
         } else if(usuario.equals("nuevo") && contrasenia.equals("b")){
+            limpiarInformacion(vista);
             Intent intencion = new Intent(this, Activity_1_0_1.class);
             startActivity(intencion);
             overridePendingTransition(R.anim.right_in, R.anim.right_out);
-            limpiarInformacion(vista);
         }else{
 
             textViewInformacion.setText("Credenciales Inválidas.");
