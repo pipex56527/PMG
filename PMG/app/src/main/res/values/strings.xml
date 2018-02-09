@@ -34,4 +34,18 @@
     <string name="pmg1_1_1_periodoAct">Periodo Activo:</string>
     <string name="pmg1_1_1_informacion">Información: </string>
 
+    <!--1.1.1.1 INGRESAR-MOV -->
+    <string name="pmg1_1_1_1titulo">INGRESAR MOVIMIENTO</string>
+    <string name="pmg1_1_1_1tipo">Tipo</string>
+    <string name="pmg1_1_1_1concepto">Concepto</string>
+    <string name="pmg1_1_1_1formaPago">Forma de Pago</string>
+    <string name="pmg1_1_1_1debito">Débito</string>
+    <string name="pmg1_1_1_1credito">Crédito</string>
+    <string name="pmg1_1_1_1descripcion">Descripción</string>
+    <string name="pmg1_1_1_1valor">Valor</string>
+    <string name="pmg1_1_1_1ingresarMov">Ingresar Movimiento</string>
+    <string name="pmg1_1_1_1informacion">Información</string>
+
+
+
 </resources>
