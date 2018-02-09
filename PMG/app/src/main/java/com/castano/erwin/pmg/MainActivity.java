@@ -24,7 +24,7 @@ public class MainActivity extends Activity {
         EditText textViewUsuario = (EditText) findViewById(R.id.editTextpmg1_0_usuario);
         EditText textViewContrasenia = (EditText) findViewById(R.id.editTextpmg1_0_contrasenia);
         Button botonAceptar = (Button) findViewById(R.id.buttonpmg1_0_iniciarSesion);
-        TextView textViewInformacion = (TextView) findViewById(R.id.textViewInformacion);
+        TextView textViewInformacion = (TextView) findViewById(R.id.textViewpmg1_0_informacion);
 
         usuario = textViewUsuario.getText().toString();
         contrasenia = textViewContrasenia.getText().toString();
@@ -53,7 +53,7 @@ public class MainActivity extends Activity {
     public void limpiarInformacion(View vista){
         EditText textViewUsuario = (EditText) findViewById(R.id.editTextpmg1_0_usuario);
         EditText textViewContrasenia = (EditText) findViewById(R.id.editTextpmg1_0_contrasenia);
-        TextView textViewInformacion = (TextView) findViewById(R.id.textViewInformacion);
+        TextView textViewInformacion = (TextView) findViewById(R.id.textViewpmg1_0_informacion);
         textViewUsuario.setFocusable(true);
         textViewUsuario.requestFocus();
         textViewUsuario.setText("");
@@ -66,7 +66,7 @@ public class MainActivity extends Activity {
         textViewUsuario.setFocusable(true);
         textViewUsuario.requestFocus();
         EditText textViewContrasenia = (EditText) findViewById(R.id.editTextpmg1_0_contrasenia);
-        TextView textViewInformacion = (TextView) findViewById(R.id.textViewInformacion);
+        TextView textViewInformacion = (TextView) findViewById(R.id.textViewpmg1_0_informacion);
         textViewUsuario.setText("");
         textViewContrasenia.setText("");
         textViewInformacion.setText("");
