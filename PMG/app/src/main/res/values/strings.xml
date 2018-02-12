@@ -42,7 +42,7 @@
     <string name="pmg1_1_1_1debito">Débito</string>
     <string name="pmg1_1_1_1credito">Crédito</string>
     <string name="pmg1_1_1_1descripcion">Descripción</string>
-    <string name="pmg1_1_1_1valor">Valor</string>
+    <string name="pmg1_1_1_1valor">Valor $0.0</string>
     <string name="pmg1_1_1_1ingresarMov">Ingresar Movimiento</string>
     <string name="pmg1_1_1_1informacion">Información</string>
 
