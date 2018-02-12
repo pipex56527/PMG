@@ -46,6 +46,23 @@
     <string name="pmg1_1_1_1ingresarMov">Ingresar Movimiento</string>
     <string name="pmg1_1_1_1informacion">Información</string>
 
+    <!--1.1.1.2 MODIFICAR-MOV -->
+    <string name="pmg1_1_1_2titulo">MODIFICAR MOVIMIENTO</string>
+    <string name="pmg1_1_1_2tipo">Tipo</string>
+    <string name="pmg1_1_1_2concepto">Concepto</string>
+    <string name="pmg1_1_1_2movimiento">Movimiento</string>
+    <string name="pmg1_1_1_2debito">Débito</string>
+    <string name="pmg1_1_1_2credito">Crédito</string>
+    <string name="pmg1_1_1_2descripcion">Descripción</string>
+    <string name="pmg1_1_1_2valor">Valor</string>
+    <string name="pmg1_1_1_2formaPago">Forma de Pago</string>
+    <string name="pmg1_1_1_2fecha">Fecha</string>
+    <string name="pmg1_1_1_2hora">Hora</string>
+    <string name="pmg1_1_1_2modifMovimiento">Modificar Movimiento</string>
+    <string name="pmg1_1_1_2informacion">Información</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
 </resources>
