@@ -61,8 +61,13 @@
     <string name="pmg1_1_1_2modifMovimiento">Modificar Movimiento</string>
     <string name="pmg1_1_1_2informacion">Información</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
 
+    <!--1.1.1.3 ELIMINAR-MOV -->
+    <string name="pmg1_1_1_3titulo">ELIMINAR MOVIMIENTO</string>
+    <string name="pmg1_1_1_3tipo">Tipo</string>
+    <string name="pmg1_1_1_3concepto">Concepto</string>
+    <string name="pmg1_1_1_3movimiento">Movimiento</string>
+    <string name="pmg1_1_1_3eliminarMovimiento">Eliminar Movimiento</string>
+    <string name="pmg1_1_1_3informacion">Información</string>
 
 </resources>

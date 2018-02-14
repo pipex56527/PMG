@@ -31,5 +31,11 @@ public class Activity_1_1_1 extends AppCompatActivity {
         overridePendingTransition(R.anim.right_in, R.anim.right_out);
     }
 
+    public void elminarMovimiento(View vista){
+        Intent intencion = new Intent(this, Activity_1_1_1_3.class);
+        startActivity(intencion);
+        overridePendingTransition(R.anim.right_in, R.anim.right_out);
+    }
+
 
 }
