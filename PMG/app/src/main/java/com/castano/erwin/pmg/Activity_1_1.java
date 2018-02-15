@@ -27,4 +27,10 @@ public class Activity_1_1 extends AppCompatActivity {
         startActivity(intencion);
         overridePendingTransition(R.anim.right_in, R.anim.right_out);
     }
+
+    public void conceptos(View vista){
+        Intent intencion = new Intent(this, Activity_1_1_2.class);
+        startActivity(intencion);
+        overridePendingTransition(R.anim.right_in, R.anim.right_out);
+    }
 }

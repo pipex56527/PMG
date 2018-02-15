@@ -4,11 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.castano.erwin.pmg.Activity_1_1_1">
+    tools:context="com.castano.erwin.pmg.Activity_1_1_2">
 
 
     <TextView
-        android:id="@+id/textViewpmg1_1_1_periodoAct"
+        android:id="@+id/textViewpmg1_1_2_periodoAct"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -16,7 +16,7 @@
         android:layout_marginRight="16dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="@string/pmg1_1_1_periodoAct"
+        android:text="@string/pmg1_1_2_periodoAct"
         android:textSize="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -27,12 +27,12 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/textViewpmg1_1_1_titulo"
+        android:id="@+id/textViewpmg1_1_2_titulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginTop="8dp"
-        android:text="@string/pmg1_1_1_titulo"
+        android:text="@string/pmg1_1_2_titulo"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -41,70 +41,70 @@
         app:layout_constraintVertical_bias="0.144" />
 
     <Button
-        android:id="@+id/buttonpmg1_1_1_ingresar"
+        android:id="@+id/buttonpmg1_1_2_ingresar"
         android:layout_width="250dp"
         android:layout_height="56dp"
         android:layout_marginBottom="8dp"
         android:layout_marginTop="8dp"
-        android:onClick="ingresarMovimiento"
-        android:text="@string/pmg1_1_1_ingresar"
+        android:onClick="ingresarConcepto"
+        android:text="@string/pmg1_1_2_ingresar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewpmg1_1_1_titulo"
+        app:layout_constraintTop_toBottomOf="@+id/textViewpmg1_1_2_titulo"
         app:layout_constraintVertical_bias="0.098" />
 
     <Button
-        android:id="@+id/buttonpmg1_1_1_modificar"
+        android:id="@+id/buttonpmg1_1_2_modificar"
         android:layout_width="250dp"
         android:layout_height="56dp"
         android:layout_marginBottom="8dp"
         android:layout_marginTop="8dp"
-        android:onClick="modificarMovimiento"
-        android:text="@string/pmg1_1_1_modificar"
+        android:onClick="modificarConcepto"
+        android:text="@string/pmg1_1_2_modificar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonpmg1_1_1_ingresar"
+        app:layout_constraintTop_toBottomOf="@+id/buttonpmg1_1_2_ingresar"
         app:layout_constraintVertical_bias="0.012" />
 
     <Button
-        android:id="@+id/buttonpmg1_1_1_eliminar"
+        android:id="@+id/buttonpmg1_1_2_eliminar"
         android:layout_width="250dp"
         android:layout_height="56dp"
         android:layout_marginBottom="8dp"
         android:layout_marginTop="8dp"
-        android:onClick="elminarMovimiento"
-        android:text="@string/pmg1_1_1_eliminar"
+        android:onClick="elminarConcepto"
+        android:text="@string/pmg1_1_2_eliminar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonpmg1_1_1_modificar"
+        app:layout_constraintTop_toBottomOf="@+id/buttonpmg1_1_2_modificar"
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
-        android:id="@+id/buttonpmg1_1_1_consultar"
+        android:id="@+id/buttonpmg1_1_2_consultar"
         android:layout_width="250dp"
         android:layout_height="56dp"
         android:layout_marginBottom="8dp"
         android:layout_marginTop="8dp"
-        android:onClick="consultarMovimiento"
-        android:text="@string/pmg1_1_1_consultar"
+        android:onClick="consultarConcepto"
+        android:text="@string/pmg1_1_2_consultar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonpmg1_1_1_eliminar"
+        app:layout_constraintTop_toBottomOf="@+id/buttonpmg1_1_2_eliminar"
         app:layout_constraintVertical_bias="0.009" />
 
     <TextView
-        android:id="@+id/textViewpmg1_1_1_informacion"
+        android:id="@+id/textViewpmg1_1_2_informacion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginTop="8dp"
-        android:text="@string/pmg1_1_1_informacion"
+        android:text="@string/pmg1_1_2_informacion"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonpmg1_1_1_consultar" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonpmg1_1_2_consultar" />
 </android.support.constraint.ConstraintLayout>

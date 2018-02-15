@@ -83,4 +83,30 @@
     <string name="pmg1_1_1_4hora">Hora</string>
     <string name="pmg1_1_1_4informacion">Información</string>
 
+    <!--1.1.1 MENU-CONCEPTOS -->
+    <string name="pmg1_1_2_titulo">CONCEPTOS</string>
+    <string name="pmg1_1_2_ingresar">Ingresar</string>
+    <string name="pmg1_1_2_modificar">Modificar</string>
+    <string name="pmg1_1_2_eliminar">Elminar</string>
+    <string name="pmg1_1_2_consultar">Consultar</string>
+    <string name="pmg1_1_2_periodoAct">Periodo Activo:</string>
+    <string name="pmg1_1_2_informacion">Información</string>
+
+    <!--1.1.2.1 INGRESAR-CONCEPTO -->
+    <string name="pmg1_1_2_1titulo">INGRESAR CONCEPTO</string>
+    <string name="pmg1_1_2_1tipo">Tipo</string>
+    <string name="pmg1_1_2_1descripcion">Descripción</string>
+    <string name="pmg1_1_2_1disponibleMes">Disponible para el mes</string>
+    <string name="pmg1_1_2_1ingresarConcepto">Ingresar Concepto</string>
+    <string name="pmg1_1_2_1informacion">Información</string>
+
+    <!--1.1.2.2 MODIFICAR-CONCEPTO -->
+    <string name="pmg1_1_2_2titulo">MODIFICAR CONCEPTO</string>
+    <string name="pmg1_1_2_2tipo">Tipo</string>
+    <string name="pmg1_1_2_2concepto">Concepto</string>
+    <string name="pmg1_1_2_2nuevaDescripcion">Nueva Descripción</string>
+    <string name="pmg1_1_2_2nuevoDisponibleMes">Nuevo Disponible para el mes</string>
+    <string name="pmg1_1_2_2modificarConcepto">Modificar Concepto</string>
+    <string name="pmg1_1_2_2informacion">Información</string>
+
 </resources>
