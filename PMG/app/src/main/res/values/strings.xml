@@ -70,4 +70,17 @@
     <string name="pmg1_1_1_3eliminarMovimiento">Eliminar Movimiento</string>
     <string name="pmg1_1_1_3informacion">Información</string>
 
+    <!--1.1.1.4 CONSULTAR-MOV -->
+    <string name="pmg1_1_1_4titulo">CONSULTAR MOVIMIENTO</string>
+    <string name="pmg1_1_1_4tipo">Tipo</string>
+    <string name="pmg1_1_1_4concepto">Concepto</string>
+    <string name="pmg1_1_1_4movimiento">Movimiento</string>
+    <string name="pmg1_1_1_4tipoOperacion">Tipo de Operación</string>
+    <string name="pmg1_1_1_4descripcion">Descripción</string>
+    <string name="pmg1_1_1_4valor">Valor</string>
+    <string name="pmg1_1_1_4medioPago">Medio de Pago</string>
+    <string name="pmg1_1_1_4fecha">Fecha</string>
+    <string name="pmg1_1_1_4hora">Hora</string>
+    <string name="pmg1_1_1_4informacion">Información</string>
+
 </resources>

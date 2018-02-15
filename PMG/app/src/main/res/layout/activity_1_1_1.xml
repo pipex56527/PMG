@@ -88,6 +88,7 @@
         android:layout_height="56dp"
         android:layout_marginBottom="8dp"
         android:layout_marginTop="8dp"
+        android:onClick="consultarMovimiento"
         android:text="@string/pmg1_1_1_consultar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
