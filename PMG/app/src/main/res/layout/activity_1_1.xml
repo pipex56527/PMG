@@ -28,7 +28,7 @@
     <Button
         android:id="@+id/buttonpmg1_1_movimientos"
         android:layout_width="300dp"
-        android:layout_height="wrap_content"
+        android:layout_height="93dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
@@ -41,16 +41,15 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewpmg1_1_titulo"
-        app:layout_constraintVertical_bias="0.061" />
+        app:layout_constraintVertical_bias="0.116" />
 
     <Button
         android:id="@+id/buttonpmg1_1_conceptos"
         android:layout_width="300dp"
-        android:layout_height="wrap_content"
+        android:layout_height="93dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
         android:onClick="conceptos"
         android:text="@string/pmg1_1_conceptos"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -59,16 +58,16 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonpmg1_1_movimientos"
-        app:layout_constraintVertical_bias="0.01" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/buttonpmg1_1_EstadoFinanPers"
         android:layout_width="300dp"
-        android:layout_height="wrap_content"
+        android:layout_height="93dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:onClick="estadoFinanzasPersonales"
         android:text="@string/pmg1_1_EstadoFinanPers"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -81,11 +80,10 @@
     <Button
         android:id="@+id/buttonpmg1_1_periodoActivo"
         android:layout_width="300dp"
-        android:layout_height="wrap_content"
+        android:layout_height="93dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
         android:text="@string/pmg1_1_periodoActivo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

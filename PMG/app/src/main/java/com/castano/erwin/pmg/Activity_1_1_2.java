@@ -30,7 +30,7 @@ public class Activity_1_1_2 extends AppCompatActivity {
         startActivity(intencion);
         overridePendingTransition(R.anim.right_in, R.anim.right_out);
     }
-/*
+
     public void elminarConcepto(View vista){
         Intent intencion = new Intent(this, Activity_1_1_2_3.class);
         startActivity(intencion);
@@ -43,5 +43,5 @@ public class Activity_1_1_2 extends AppCompatActivity {
         overridePendingTransition(R.anim.right_in, R.anim.right_out);
     }
 
-   */
+
 }

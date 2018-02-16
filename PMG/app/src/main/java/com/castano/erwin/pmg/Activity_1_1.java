@@ -33,4 +33,10 @@ public class Activity_1_1 extends AppCompatActivity {
         startActivity(intencion);
         overridePendingTransition(R.anim.right_in, R.anim.right_out);
     }
+
+    public void estadoFinanzasPersonales(View vista){
+        Intent intencion = new Intent(this, Activity_1_1_3_CM.class);
+        startActivity(intencion);
+        overridePendingTransition(R.anim.right_in, R.anim.right_out);
+    }
 }

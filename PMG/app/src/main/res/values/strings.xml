@@ -109,4 +109,25 @@
     <string name="pmg1_1_2_2modificarConcepto">Modificar Concepto</string>
     <string name="pmg1_1_2_2informacion">Información</string>
 
+    <!--1.1.2.3 ELIMINAR-CONCEPTO -->
+    <string name="pmg1_1_2_3titulo">ELIMINAR CONCEPTO</string>
+    <string name="pmg1_1_2_3tipo">Tipo</string>
+    <string name="pmg1_1_2_3concepto">Concepto</string>
+    <string name="pmg1_1_2_3eliminarConcepto">Eliminar Concepto</string>
+    <string name="pmg1_1_2_3informacion">Información</string>
+
+    <!--1.1.2.4 CONSULTAR-CONCEPTOS -->
+    <string name="pmg1_1_2_4titulo">CONSULTAR CONCEPTOS</string>
+    <string name="pmg1_1_2_4tipo">Tipo</string>
+    <string name="pmg1_1_2_4informacion">Información</string>
+
+    <!--1.1.3.CM ACTUALIZAR-CM -->
+    <string name="pmg1_1_3_CMactualizarCajaMenor">ACTUALIZAR CAJA MENOR Y SALDO EN BANCO</string>
+    <string name="pmg1_1_3_CMvalorCajaMenor">Valor Caja Menor</string>
+    <string name="pmg1_1_3_CMvalorSaldoBanco">Valor Saldo Banco</string>
+    <string name="pmg1_1_3_CMactualizar">Actualizar</string>
+    <string name="pmg1_1_3_CMomitir">Omitir</string>
+    <string name="pmg1_1_3_CMperiodoActivo">Periodo Activo</string>
+    <string name="pmg1_1_3_CMinformacion">Información</string>
+
 </resources>
