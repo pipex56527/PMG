@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fondo_gradiente"
     tools:context="com.castano.erwin.pmg.MainActivity">
 
     <TextView
@@ -22,16 +23,17 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.18" />
+        app:layout_constraintVertical_bias="0.225" />
 
     <EditText
         android:id="@+id/editTextpmg1_0_usuario"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="54dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
+        android:background="@drawable/fondo_caja_texto"
         android:ems="10"
         android:hint="@string/pmg1_0_usuario"
         android:inputType="textPersonName|textWebEmailAddress"
@@ -44,16 +46,17 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewpmg1_0_titulo"
-        app:layout_constraintVertical_bias="0.165" />
+        app:layout_constraintVertical_bias="0.1" />
 
     <EditText
         android:id="@+id/editTextpmg1_0_contrasenia"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="54dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
+        android:background="@drawable/fondo_caja_texto"
         android:ems="10"
         android:hint="@string/pmg1_0_contrasenia"
         android:inputType="textPassword"
@@ -66,26 +69,26 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewpmg1_0_titulo"
-        app:layout_constraintVertical_bias="0.428" />
+        app:layout_constraintVertical_bias="0.383" />
 
     <Button
         android:id="@+id/buttonpmg1_0_iniciarSesion"
         android:layout_width="280dp"
-        android:layout_height="wrap_content"
+        android:layout_height="88dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
+        android:background="@drawable/fondo_boton"
         android:onClick="iniciarSesion"
         android:text="@string/pmg1_0_iniciarSesion"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewpmg1_0_titulo"
-        app:layout_constraintVertical_bias="0.757" />
+        app:layout_constraintVertical_bias="0.798" />
 
     <TextView
         android:id="@+id/textViewpmg1_0_informacion"
@@ -102,5 +105,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonpmg1_0_iniciarSesion"
         tools:text="@string/pmg1_0_informacion" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="36dp"
+        android:src="@mipmap/ic_launcher_foreground"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </android.support.constraint.ConstraintLayout>

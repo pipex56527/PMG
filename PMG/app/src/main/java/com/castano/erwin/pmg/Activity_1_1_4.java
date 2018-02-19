@@ -37,7 +37,6 @@ public class Activity_1_1_4 extends AppCompatActivity {
             public void onNothingSelected(AdapterView<?> adapterView) {
             }
         });
-
     }
 
     @Override
