@@ -130,4 +130,11 @@
     <string name="pmg1_1_3_CMperiodoActivo">Periodo Activo</string>
     <string name="pmg1_1_3_CMinformacion">Información</string>
 
+    <!--1.1.4 SELECCIONAR-PERIODO-ACT -->
+    <string name="pmg1_1_4titulo">SELECCIONAR PERIODO ACTIVO</string>
+    <string name="pmg1_1_4anio">Año</string>
+    <string name="pmg1_1_4mes">Mes</string>
+    <string name="pmg1_1_4selPeriodoAct">Seleccionar Periodo Activo</string>
+    <string name="pmg1_1_4informacion">Información</string>
+
 </resources>

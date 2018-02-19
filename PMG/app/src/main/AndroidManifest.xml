@@ -33,7 +33,8 @@
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
 
-        <activity android:name=".Activity_1_1_3_CM"></activity>
+        <activity android:name=".Activity_1_1_3_CM" />
+        <activity android:name=".Activity_1_1_4"></activity>
     </application>
 
 </manifest>
