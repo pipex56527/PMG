@@ -44,7 +44,7 @@ public class MainActivity extends Activity {
 
             textViewInformacion.setText("Credenciales Inválidas.");
             textViewInformacion.setTextColor(Color.RED);
-            //System.out.println("Credenciales Inválidas");
+            System.out.println("Credenciales Inválidas");
         }
 
 
